@@ -2,6 +2,7 @@ function getRandomNumber(){
     return Math.floor(Math.random() * 101);
 };
 
+// function that creates a random array
 function createRandomArray(size){
     const randomArray = [];
     for (i = 1; i < size; i++) {
@@ -15,6 +16,7 @@ function createRandomArray(size){
     return randomArray
 }
 
+// this will search for the smallest number of an array
 function searchForSmallest(array){
     let smallest = array[0];
     let smallestIndex = 0;
